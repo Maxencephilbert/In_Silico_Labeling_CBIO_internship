@@ -5,3 +5,5 @@ Work on In Silico Labeling method. Goal : develop an image-to-image translation 
 U-Net architecture + different training loss experiments (L1, Pix2pix from Phillip Isola et al. https://arxiv.org/pdf/1611.07004.pdf based on conditional GANs, content loss from Gatys et al. https://arxiv.org/pdf/1508.06576.pdf based on transfer learning for feature extraction) 
 
 Second part : work on nuclei segmentation. We have investigated the use of In Silico Labeling for pre-training segmentation networks. We showed that using ISL model as a "pretext task" for cell nuclei segmentation could reduce the number of annotated data required without sacrificing performance. 
+
+You can read more about our work in my master thesis (masters_thesis.pdf). You will find the coding part in src_code. 
