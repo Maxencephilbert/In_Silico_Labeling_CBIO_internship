@@ -6,4 +6,4 @@ U-Net architecture + different training loss experiments (L1, Pix2pix from Phill
 
 Second part : work on nuclei segmentation. We have investigated the use of In Silico Labeling for pre-training segmentation networks. We showed that using ISL model as a "pretext task" for cell nuclei segmentation could reduce the number of annotated data required without sacrificing performance. 
 
-You can read more about our work in my master thesis (pdf masters_thesis). You will find the coding part in src_code file. 
+You can read more about our work in my master thesis (pdf masters_thesis). You will find the python coding part in src_code file. 
